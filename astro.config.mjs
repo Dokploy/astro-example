@@ -9,6 +9,6 @@ export default defineConfig({
 	integrations: [mdx(), sitemap()],
 	server:{
 		port: 3000,
-		host:"0.0.0.0"
+		host: true
 	}
 });
