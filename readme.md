@@ -1,68 +1,29 @@
-# Astro Starter Kit: Blog
+# Dokploy Example
 
-```sh
-npm create astro@latest -- --template blog
-```
+This repository contains an example blog deployment for Dokploy.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
+You have two options to get started:
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+1. **Fork the Repository**:
+   - Fork this repo to your own GitHub account.
 
-![blog](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
+2. **Use Git Provider in Your Application**:
+   - Repository: `https://github.com/Dokploy/astro-example.git`
+   - Branch: `main`
+   - Build path: `/`
 
-Features:
+3. **Add Environment Variables**:
+   - Navigate to the "Environments" tab and add the following variable:
+     ```plaintext
+     NIXPACKS_START_CMD="pnpm run preview"
+     ```
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+4. **Click on Deploy**:
+   - Deploy your application by clicking the deploy button.
 
-## 🚀 Project Structure
+5. **Add a Domain**:
+   - Host: Enter your domain.
+   - Path: `/`
+   - Container port: `3000`
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+If you need further assistance, join our [Discord server](https://discord.com/invite/2tBnJ3jDJc).
